@@ -9,8 +9,8 @@ public class DoesFileExist {
 	public class FileWordMeanings {
 		
 		
-	    public  void main(String[] args) {
-	        String filePath = "src\\data\\file.text"; // Replace with the actual file path
+	    public void main(String[] args) {
+	        String filePath = "src\\data\\file.text"; // File path to context
 	        if (doesFileExist(filePath)) {
 	            readAndPrintWordMeanings(filePath);
 	        }
